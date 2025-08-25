@@ -64,7 +64,7 @@ analytics_id            :
 # - fusejs: https://fusejs.io/
 search:
   provider              : algolia #Select a provider for enable search: lunr, algolia, google, simplesearch, fusejs
-  label                 :  #default ["Search"] Text on navbar when search is enabled
+  label                 :  #default ["Search"] Text on r when search is enabled
   landing_page          :  #default ["/search"] Link on navbar
   maxwords              :  #default [30] lunr simplesearch, fusejs only - May slow down your site build
   show_attrib           :   #default ["true"] Show attributions/logo on search engine
@@ -119,12 +119,12 @@ navbar:
   style     :  #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   :  # Title in navbar
-    url     :  # default["url/baseurl"]
+    title   :  Home # Title in navbar
+    url     :  _posts/2025-08-21-NDK-test.md # default["url/baseurl"]
     img     :  # An small image, try 30x30px
   nav:
   - title   : Test
-    url     : https://github.com/nelliputkonen/test/blob/main/_posts/2025-08-21-NDK-test.md # url
+    url     : _posts/2025-08-21-NDK-test.md # url
   - title   : # Label submenu
     child:
      - title: # Child label
@@ -278,6 +278,7 @@ sass:
     - abs-percent
     - function-units
     - color-functions
+
 
 
 
