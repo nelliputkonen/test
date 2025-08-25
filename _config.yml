@@ -21,7 +21,7 @@ remote_theme: dieghernan/chulapa
 # Overall options for your site, would affect your site SEO
 # Default values are explained
 locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
-title                   :     #default["repository_name"]
+title                   :     NDK
 title_separator         :     #default [" | "]
 subtitle                :     #default [your-repository-tagline]
 description             :     #default [your-repository-tagline]
@@ -278,3 +278,4 @@ sass:
     - abs-percent
     - function-units
     - color-functions
+
