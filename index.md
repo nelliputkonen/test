@@ -1,3 +1,5 @@
+layout: landingpage
+
 ---
 NDK: NDK is a small Finnish energy modelling consultancy 
 ---
