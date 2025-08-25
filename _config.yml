@@ -123,8 +123,8 @@ navbar:
     url     :  # default["url/baseurl"]
     img     :  # An small image, try 30x30px
   nav:
-  - title   : # Label
-    url     : # url
+  - title   : # Test
+    url     : https://github.com/nelliputkonen/test/blob/main/_posts/2025-08-21-NDK-test.md # url
   - title   : # Label submenu
     child:
      - title: # Child label
@@ -278,4 +278,5 @@ sass:
     - abs-percent
     - function-units
     - color-functions
+
 
